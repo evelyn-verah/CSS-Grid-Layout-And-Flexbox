@@ -26,7 +26,6 @@ main{
     color: hsl(0, 0%, 95%);
 }
 .sedan p{
-    /* font-size: ; */
     color: hsla(0, 0%, 100%, 0.75);
     padding-bottom: 3em;
 }

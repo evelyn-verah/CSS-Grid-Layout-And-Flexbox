@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+main{
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    /* display: grid; */
+    justify-content: center;
+    height:100vh;
+    font-family: Lexend Deca;
+}
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+  
+}
+.sedan h4{
+    font-size: 15px;
+    color: hsl(0, 0%, 95%);
+}
+.sedan p{
+    /* font-size: ; */
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 3em;
+}
+.suvs{
+    background-color:hsl(184,100%, 22%);
+    padding: 2em;
+}
+.suvs h4{
+    font-size: 15px;
+    color: hsl(0, 0%, 95%);
+}
+.suvs p{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 3em;
+}
+.luxury{
+    background-color: hsl(179, 100%,13%);
+    padding: 2em;
+}
+.luxury h4{
+    font-size: 15px;
+    color: hsl(0, 0%, 95%);
+}
+.luxury p{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 3em;
+
+}
+.biggerdiv{
+    display: flex;
+}
+.btn-learn_more_sedans{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    font-family: Lexend Deca;
+    border-radius:14px;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    height: 37px;
+}
+.btn-learn_more_suvs{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184,100%, 22%);
+    font-family: Lexend Deca;
+    border-radius:14px;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    height: 37px;
+}
+.btn-learn_more_luxury{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    font-family: Lexend Deca;
+    border-radius:14px;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    height: 37px;
+}
+object{
+    padding-bottom: 2em;
+}
